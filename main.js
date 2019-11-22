@@ -18,16 +18,6 @@ $(document).ready(function() {
             scrollTop: 0
         }, 2000);
     });
-    $('form').on('click', function required() {
-        var empt = document.forms["form1"]["text1"].value;
-        if (empt == "") {
-            alert("Please input a Value");
-            return false;
-        } else {
-            alert('Code has accepted : you can try another');
-            return true;
-        }
-    })
     AOS.init({
         easing: 'ease',
         duration: 1000,
