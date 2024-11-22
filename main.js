@@ -4,7 +4,7 @@ $(document).ready(function() {
         $('.top-nav').toggleClass('open');
     });
     $('.top-nav .nav-link').on('click', function() {
-        $('.men-toggler').removeClass('open');
+        $('.menu-toggler').removeClass('open');
         $('.top-nav').removeClass('open');
     });
     $('nav a[href*="#"]').on('click', function() {
@@ -24,3 +24,28 @@ $(document).ready(function() {
         once: true
     });
 });
+
+let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        const texts = document.querySelectorAll('.text-content');
+
+        function showSlide(index) {
+            if (index >= slides.length) index = 0;
+            if (index < 0) index = slides.length - 1;
+            
+            slides.forEach(slide => slide.classList.remove('active'));
+            texts.forEach(text => text.classList.remove('active'));
+            
+            slides[index].classList.add('active');
+            texts[index].classList.add('active');
+            
+            currentSlide = index;
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentSlide - 1);
+        }
