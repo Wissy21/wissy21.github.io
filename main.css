@@ -628,7 +628,7 @@ input[type="submit"]:hover {
 }
 
 .carousel-btn {
-    background-color: #333;
+    background-color: #fd57bf;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -637,7 +637,8 @@ input[type="submit"]:hover {
 }
 
 .carousel-btn:hover {
-    background-color: #555;
+    background-color: #ffe838;
+    color: blue;
 }
 
 @media (max-width: 1024px) {
