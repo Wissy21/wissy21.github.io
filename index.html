@@ -15,7 +15,8 @@
     <header>
         <div class="landing-text">
             <h1>Manuela Kuaguim</h1>
-            <h6>Web Entwicklerin</h6>
+            <h6>Fullstack-Softwareentwicklerin</h6>
+            <a href="assets/Lebenslauf Manuela Kuaguim-1.pdf" download class="download-btn">Download CV</a>
         </div>
         <div class="menu-toggler">
             <div class="bar half start"></div>
@@ -40,10 +41,10 @@
                     <a href="#education" class="nav-link">Education</a>
                 </li>
                 <li>
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#hobbys" class="nav-link">Hobbys</a>
                 </li>
                 <li>
-                    <a href="#portfolio" class="nav-link">Hobbys</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -60,31 +61,58 @@
                     <h1>About</h1>
                     <h6>Myself</h6>
                 </div>
-                <p>
-                Hallo ich heiße Manuela, ich komme aus Kamerun. Außerdem studiere ich Informatik an der TU kaiserslautern. Ich wollte schon immer ein Software-Ingenieur sein. Jemand, der das Leben verschönert, indem er einfache Lösungen für komplexe Situationen schafft,
-                </p>
+                <div class="about-text">
+                    <p>Hallo ich heiße Manuela Kuaguim!</p>
+                    <p>
+                    Ich bin eine leidenschaftliche Fullstack-Softwareentwicklerin mit Spezialisierung auf das Java- und JavaScript-Ökosystem. Mit mehreren Jahren Erfahrung in der Softwareentwicklung arbeite ich mit modernen Technologien wie React.js, Spring Boot, Docker und Kubernetes. Mein Fokus liegt auf Clean Code, Testing und der Integration von DevOps-Prinzipien, um robuste und skalierbare Anwendungen zu entwickeln.
+                    Als kreative Problemlöserin liebe ich es, innovative Lösungen zu gestalten und im Team an anspruchsvollen Projekten zu arbeiten. Meine Arbeitsweise zeichnet sich durch strukturiertes Denken, offene Kommunikation und ein hohes Maß an Empathie aus.
+                    </p>
+                    <p>Neben meiner beruflichen Tätigkeit widme ich mich kontinuierlich der Weiterbildung – sei es durch das Vertiefen von UI-Frameworks, das Erforschen neuer Technologien oder das Engagement für die Verbindung von Technik und sozialem Impact.</p>
+                </div>
+
+                <div class="about-gri">
+                    <div class="about-in">
+                        <h5>1. kreative Problemlöserin</h5>
+                    </div>
+
+                    <div class="about-in">
+                        <h5>2. strukturiertes Denken</h5>
+                    </div>
+
+                    <div class="about-in">
+                        <h5>3. Software Entwicklung</h5>
+                    </div>
+
+                    <div class="about-in">
+                        <h5>4. Web Entwicklung</h5>
+                    </div>
+
+                </div>
+
                 <div class="social-media">
                     <ul class="nav-list">
                         <li>
-                            <a href="https://github.com/Wissy21" target="_blank" class="icon-link ">
+                            <a href="https://github.com/Wissy21" target="_blank" class="nav-link">
                                 <i class="fab fa-github-square" aria-hidden="true"></i>
                             </a>
                         </li>
-                        <!-- <li>
-                            <a href="# " class="icon-link ">
-                                <i class="fab fa-twitter-square "></i>
-                            </a>
-                        </li> -->
+                
                         <li>
-                            <a href="https://www.linkedin.com/in/kuaguim-manuela-409b35138" target="_blank" class="icon-link ">
+                            <a href="https://www.linkedin.com/in/kuaguim-manuela-409b35138" target="_blank" class="nav-link">
                                 <i class="fab fa-linkedin "  aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link">
+                                <i class="fas fa-envelope"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
+            
             </div>
-
         </div>
+    
     </section>
     <!----------------Services------------------------------------------------------------------------------>
     <section class="services " id="service">
@@ -151,49 +179,46 @@
         <div class="container ">
             <div class="section-heading ">
                 <h1>Project</h1>
-                <h6>What i made</h6>
+                <h6>Some Of My Distinguished Works</h6>
             </div>
         </div>
-        <div class="carousel-container">
-            <div class="image-carousel">
-                <div class="carousel-slide active">
-                    <img src="images/screenshotbayern.png" alt="Image 1">
+        <div class="project-container">
+            <div class="portfolio-content">
+                <div class="row">
+                    <a href="https://github.com/Wissy21/SEP.git" target="_blank" class="cta">
+                        <img src="images/explodingkittens.png">
+                    </a>
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h6>JAVA Entwicklung</h6>
+                        </div>
+                    </div>
+                    <h3>Exploding Kittens</h3>
                 </div>
-                <div class="carousel-slide">
-                    <img src="images/HIH.png" alt="Image 2">
+
+
+                <div class="row">
+                    <a href="https://github.com/Wissy21/mycourselibrary" target="_blank"  class="cta">
+                        <img src="images/lib.png">
+                    </a>
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h6>React + Spring Boot</h6>
+                        </div>
+                    </div>
+                    <h3>Library Management System</h3>
                 </div>
-                <div class="carousel-slide">
-                    <img src="images/SIAK.png" alt="Image 3">
-                </div>
-                <div class="carousel-slide">
-                    <img src="images/explodingkittens.png" alt="Image 4">
-                </div>
-                <div class="carousel-buttons">
-                    <button class="carousel-btn" onclick="prevSlide()">Previous</button>
-                    <button class="carousel-btn" onclick="nextSlide()">Next</button>
-                </div>
-            </div>
-    
-            <div class="text-container">
-                <div class="text-content active">
-                    <h1>Insurance Website</h1>
-                    <p>Dieses Projekt ist ein Vorschlag für die Gestaltung und Umsetzung einer Versicherungswebsite. Ziel ist es, moderne Webentwicklungsmethoden zu demonstrieren und die spezifischen Anforderungen eines Versicherungsunternehmens zu erfüllen.</p>
-                    <a href="https://github.com/Wissy21/homepage.git" target="_blank" class="cta ">View Details</a>
-                </div>
-                <div class="text-content">
-                    <h1>HIH Website</h1>
-                    <p>Im Rahmen dieses Projekts wurde eine Webseite für HIH mithilfe von WordPress erstellt. Ziel war es, eine ansprechende, benutzerfreundliche und professionelle Online-Präsenz zu gestalten, die den Anforderungen des Kunden gerecht wird.</p>
-                    <a href="https://www.hih-rlp.de" target="_blank" class="cta ">View Details</a>
-                </div>
-                <div class="text-content">
-                    <h1>SIAK Website</h1>
-                    <p>Für dieses Projekt wurde eine moderne Webseite für SIAK mithilfe von WordPress entwickelt, um eine professionelle und benutzerfreundliche Plattform zu schaffen. Der Fokus lag auf einem ansprechenden Design und einer klaren Struktur, die den spezifischen Anforderungen des Projekts gerecht werden.</p>
-                    <a href="https://www.siak-kl.com" target="_blank" class="cta ">View Details</a>
-                </div>
-                <div class="text-content">
-                    <h1>Exploding Kittens</h1>
-                    <p> Dieses Projekt ist eine Java-basierte Anwendung, die das beliebte Kartenspiel Exploding Kittens digital umsetzt. Das Spiel wurde mithilfe von JavaFX für die Benutzeroberfläche und MySQL als Datenbank für Spielinformationen und Benutzerverwaltung entwickelt.</p>
-                    <a href="https://github.com/Wissy21/SEP.git" target="_blank" class="cta ">View Details</a>
+                
+                <div class="row">
+                    <a href="https://github.com/Wissy21/movieapp" target="_blank"  class="cta">
+                        <img src="images/movieapp.png">
+                    </a>
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h6>Web Entwicklung</h6>
+                        </div>
+                    </div>
+                    <h3>Movie App (React)</h3>
                 </div>
             </div>
         </div>
@@ -243,10 +268,52 @@
             </div>
         </div>
     </section>
+
+    <!--------------------------Hobby-------------------------------------------------------------------->
+    <section class="portfolio " id="hobbys">
+        <div class="section-heading ">
+            <h1>Hobbys</h1>
+            <h6>How i spend my free time</h6>
+        </div>
+        <div class="carousel-container" >
+            <div class="image-carousel">
+                <div class="carousel-slide active">
+                    <img src="images/sudoku.png" alt="Soduko">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/travel.png" alt="Travelling">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/ui.png" alt="UI-Frameworks">
+                </div>
+                
+                <div class="carousel-buttons">
+                    <button class="carousel-btn" onclick="prevSlide()">Previous</button>
+                    <button class="carousel-btn" onclick="nextSlide()">Next</button>
+                </div>
+            </div>
+        
+            <div class="text-container">
+                <div class="text-content active">
+                    <h1>Puzzle Solving & Logic Games</h1>
+                    <p>Creative & Analytical Hobbies</p>
+                </div>
+                <div class="text-content">
+                    <h1>Traveling & Cultural Exploration</h1>
+                    <p>Discover new places and experience different perspectives.</p>
+                </div>
+                <div class="text-content">
+                    <h1>Digital Art & UI/UX Design</h1>
+                    <p>Explore Figma, Sketch, or Photoshop to design interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!---------Contact------------------------------------------------------------------------------------->
-    <section class="contact " id="contact">
-        <div class="container ">
-            <div class="section-heading ">
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
                 <h1> Contact</h1>
                 <h6>Let us work Together</h6>
             </div>
@@ -272,62 +339,13 @@
         </div>
     </section>
 
-<!--------------------------Hobby-------------------------------------------------------------------->
-<section class="portfolio " id="portfolio">
-    <!-- <div class="container ">
-        <div class="section-heading ">
-            <h1>Hobbys</h1>
-            <h6>What makes me Best</h6>
-        </div>
-        <div class="portfolio-item ">
-            <div class="portfolio-img has-margin-right " data-aos="fade-right " data-aos-delays="100 ">
-                <img class="image " src="images/music.jpg" alt="music ">
-            </div>
-            <div class="portfolio-description " data-aos="fade-left " data-aos-delays="200 ">
-
-                <h1>SINGEN</h1>
-                <p>Ich fühle mich zu Hause in meiner Welt, wenn ich fange an zu singen, kann ich meine Sorgen loswerden und nur die gute Seite des Lebens sehen.
-                </p>
-                <a href="# " class="cta ">View Details</a>
-            </div>
-        </div> -->
-
-        <!-- <div class="portfolio-item ">
-            <div class="portfolio-description " data-aos="fade-right " data-aos-delays="300 ">
-
-                <h1>WATCHING MOVIES</h1>
-                <p> Was gibt es aufregenderes als sich mit Popcorn hinzulegen und einen süßen und interessanten Film anzusehen? Ich genieße es einfach, hinter den Monitor zu sitzen und zu beobachten, wie andere auf die unterschiedlichen Veränderungen
-                    in ihrem Leben reagieren.
-
-                </p>
-                <a href="# " class="cta ">View Details</a>
-            </div>
-            <div class="portfolio-img has-margin-right " data-aos="fade-left " data-aos-delays="400 ">
-                <img class="image " src="images/film.jpg " alt="film ">
-            </div>
-        </div> -->
-
-        <!-- <div class="portfolio-item ">
-            <div class="portfolio-description " data-aos="fade-left " data-aos-delays="600 ">
-                <h1>REISEN</h1>
-                <p>
-                    Begegnung mit neuen Völkern, Kulturen. neue und seltsame Orte zu sehen war schon immer eine Leidenschaft für mich mit meiner neugierigen Natur
-                </p>
-                <a href="# " class="cta ">View Details</a>
-            </div>
-            <div class="portfolio-img has-margin-right " data-aos="fade-right " data-aos-delays="500 ">
-                <img class="image " src="images/travelling.jpg " alt="portfolio ">
-            </div>
-        </div> -->
-</section>
-
     <!----------------------------------footer------------------------------------------------------------>
     <footer class="copyright ">
         <div class="up " id="up">
             <i class="fas fa-chevron-up "></i>
 
         </div>
-        <p>&copy;2019 Manuela Kuaguim</p>
+        <p>&copy;2025 Manuela Kuaguim</p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
